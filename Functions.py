@@ -24,7 +24,7 @@ def calculate_grade(percentage):
 
 
 def display_result(name, total, percentage, grade):
-    print("\nSTUDENT RESULT")
+    print("\nSTUDENT RESULT\n")
     print("Student Name:", name)
     print("Total Marks:", total, "/ 300")
     print("Percentage:", round(percentage, 2), "%")
